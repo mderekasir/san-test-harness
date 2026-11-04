@@ -1,4 +1,4 @@
-# santh: a layered test harness for SAN automation
+# A layered test harness for SAN automation
 
 Companion code for the article **"Harnessing Automation: Test Harness Architectures for
 Scalable, Repeatable Software Verification"** (Derek Asir Muthurajan Caleb, 2026).
