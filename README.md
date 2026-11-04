@@ -93,10 +93,6 @@ The harness follows the contribution rules in Section VI of the paper:
 
 **Derek Asir Muthurajan Caleb**: author, owner, and publisher.
 
-This is an independent implementation of the ideas in the article. It contains no proprietary
-code, data, or command syntax from any vendor. The switch simulator uses generic,
-vendor-neutral commands.
-
 ## License
 
 Apache License 2.0. See [LICENSE](LICENSE).
