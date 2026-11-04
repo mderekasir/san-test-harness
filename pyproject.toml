@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "santh"
+version = "0.1.0"
+description = "Layered, dependency-free test harness for SAN / Fibre Channel and systems automation"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Derek Asir Muthurajan Caleb" }]
+maintainers = [{ name = "Derek Asir Muthurajan Caleb" }]
+requires-python = ">=3.9"
+keywords = ["test harness", "test automation", "TAP", "JUnit", "Fibre Channel", "SAN"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Topic :: Software Development :: Testing",
+]
+
+[project.scripts]
+santh = "santh.cli:main"
+
+[tool.setuptools]
+packages = ["santh"]

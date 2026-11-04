@@ -1,0 +1,6 @@
+{
+  "devices": [
+    {"name": "edge1", "driver": "simulated_fc_switch", "ports": 24, "domain": 1},
+    {"name": "core1", "driver": "simulated_fc_switch", "ports": 48, "domain": 2}
+  ]
+}
