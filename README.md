@@ -1,8 +1,5 @@
 # A layered test harness for SAN automation
 
-Companion code for the article **"Harnessing Automation: Test Harness Architectures for
-Scalable, Repeatable Software Verification"** (Derek Asir Muthurajan Caleb, 2026).
-
 `santh` is a small Python harness with no dependencies. It puts the five-layer design from the
 paper into code. Test cases state only *what* should be true. The harness handles *how*: device
 access, setup and teardown, scheduling, retries, and reporting.
